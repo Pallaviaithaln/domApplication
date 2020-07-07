@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>DOM SAMPLE</title>
+    <link rel="stylesheet" href="styles.css">
+    <h1>CHAT APPLICATION</h1>
+</head>
+
+<body>
+    <div class="login-wrap">
+        username: <input id="itext" type="text" name="textBar">
+        <button id="ibtn">Join</button>
+    </div>
+    <div class="user-list">
+    </div>
+    <div class="users-wrap" id="chatId">
+        <div class="right-wrap">
+            <div class="msg-body">
+                <!-- <div class="reply-side">
+                    <div id="from-div" class="msg-wrap">
+                        <div id="from" class="msg">Hello. How are you today?</div>
+                    </div>
+                </div> -->
+                <!-- <div class="user-side">
+                    <div class="msg-wrap user-msg-wrap">
+                        <div id="to" class="msg">Hey! I'm fine. Thanks for asking!</div>
+                    </div>
+                </div> -->
+                <form class="input-form">
+                    <div class="input-group mycustom">
+                        <input id="sendText" type="text" class="field-name" placeholder="Type Something...">
+                        <div class="input-group-prepend">
+                            <input id="sendBtn" type="submit" value="Send" class="send-btn">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src='dom.js'></script>
+</body>
+
+</html>
