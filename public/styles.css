@@ -16,6 +16,20 @@
     cursor: pointer;
     font-weight: bold;
 }
+.btn-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.field-name {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 .users-wrap {
     padding: 20px;
     display: none;

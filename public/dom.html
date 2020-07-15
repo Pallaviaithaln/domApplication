@@ -9,9 +9,19 @@
 </head>
 
 <body>
-    <div class="login-wrap">
-        username: <input id="itext" type="text" name="textBar">
-        <button id="ibtn">Join</button>
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- <div class="login-wrap">
+        username: <input class="field-name" id="itext" type="text" name="textBar">
+        <button class="btn-wrap" id="ibtn">Join</button>
+    </div> -->
+    <div class="login-wrap" id="fields-div">
+        <form class="fields">
+            <label for="userName">Enter Your Name</label>
+            <input class="field-name" type="text" id="userName" name="userName" placeholder="Enter Your Name">
+            <div class="btn-wrap">
+             <button class="btn" id="ibtn">Join</button>
+            </div>
+        </form>
     </div>
     <div class="user-list">
     </div>
@@ -39,7 +49,7 @@
             </div>
         </div>
     </div>
-    <script src='dom.js'></script>
+    <script type="text/javascript" src='dom.js'></script>
 </body>
 
 </html>
